@@ -70,7 +70,7 @@ impl From<Error> for XcmError {
 			Error::AccountIdConversionFailed => FailedToTransactAsset("AccountIdConversionFailed"),
 			Error::AmountToBalanceConversionFailed =>
 				FailedToTransactAsset("AmountToBalanceConversionFailed"),
-			Error::AssetIdConversionFailed => FailedToTransactAsset("AssetIdConversionFailed"),
+			Error::AssetIdConversionFailed => FailedToTransactAsset("AssetIdConversionFailed1"),
 			Error::InstanceConversionFailed => FailedToTransactAsset("InstanceConversionFailed"),
 		}
 	}
